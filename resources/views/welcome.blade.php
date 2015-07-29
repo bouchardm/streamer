@@ -23,10 +23,10 @@
                 {!! Form::close() !!}
 
                 <h2>Ajouter des sous-titres</h2>
-                {{--{!! Form::open(array('route' => 'addSubtitle', 'files' => true)) !!}--}}
-                    {{--{!! Form::file('subtitle') !!}--}}
-                    {{--{!! Form::submit('Send') !!}--}}
-                {{--{!! Form::close() !!}--}}
+                {!! Form::open(array('route' => 'addSubtitle', 'files' => true)) !!}
+                    {!! Form::file('subtitle') !!}
+                    {!! Form::submit('Send') !!}
+                {!! Form::close() !!}
             </div>
         </div>
     </body>
